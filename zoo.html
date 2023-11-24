@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        header {
+            background-color: rgb(205, 133, 63);
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+            position: relative;
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>zoo homework</title>
+</head>
+
+<body style="background-color: rgb(205, 133, 63);" data-bs-autohide="false">
+    <header>
+
+        <h1 style="font-family:Georgia, 'Times New Roman', Times, serif ;">My Homework Zoo</h1>
+        <hr>
+    </header>
+    
+    <!-- nav bar -->
+    <div style="text-align: center;">
+        <a href="#lion" class="btn btn-outline-warning me-2">lion</a>
+        <a href="#elephant" class="btn btn-outline-warning me-2">Elephant</a>
+        <a href="#zebra" class="btn btn-outline-warning me-2">Zebra</a>
+        <a href="#rhino" class="btn btn-outline-warning me-2">Rhino</a>
+        <a href="#giraffe" class="btn btn-outline-warning me-2">Giraffe</a>
+        <a href="#cheetah" class="btn btn-outline-warning me-2">Cheetah</a>
+
+        <!-- off canvas to the right -->
+        <button class="btn btn-warning" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight"> Facts About The Savanna</button>
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div style="background-color:rgb(138, 83, 29)" class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasRightLabel">Facts About The Savanna</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div style="background-color:rgb(202, 139, 77) ;" class="offcanvas-body">
+                <ul style="text-align: left;">
+                    <li><strong>Diverse Ecosystem:</strong> Savannas are expansive tropical and subtropical grasslands
+                        found
+                        in Africa, South America, Australia, and parts of Asia.</li>
+                    <li><strong>Seasonal Changes:</strong> These ecosystems experience distinct wet and dry seasons,
+                        influencing the vegetation and wildlife activity.</li>
+                    <li><strong>Iconic Wildlife:</strong> Home to renowned species like lions, elephants, and giraffes,
+                        savannas showcase a diverse range of wildlife adapted to open landscapes.</li>
+                    <li><strong>Fire Adaptation:</strong> Savannas are adapted to periodic fires, with grasses
+                        benefiting
+                        and many trees having fire-resistant bark.</li>
+                    <li><strong>Distinctive Baobabs:</strong> The landscape often features unique baobab trees known for
+                        their water-storing trunks and ecological significance.</li>
+                    <li><strong>Migration Wonders:</strong> Some species, including wildebeests and zebras, partake in
+                        remarkable annual migrations driven by water and grazing needs.</li>
+                    <li><strong>Human Presence:</strong> Savannas have a rich history of human habitation, with
+                        indigenous
+                        communities adapting sustainable practices.</li>
+                    <li><strong>Acacia Dominance:</strong> Acacia trees, recognizable by their umbrella-like canopies,
+                        provide essential resources for herbivores and serve as shelter.</li>
+                    <li><strong>Biodiversity Hub:</strong> Despite their seemingly simple appearance, savannas harbor
+                        high
+                        biodiversity, creating dynamic and complex ecosystems.</li>
+                    <li><strong>Conservation Imperative:</strong> Threats such as deforestation and overgrazing
+                        highlight
+                        the importance of conservation efforts to protect savannas and their unique flora and fauna.
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <!--cards-->
+    <div class="row justify-content-center"> 
+
+        <div id="lion" class="card mb-3" style="max-width: 1080px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <a href="https://en.wikipedia.org/wiki/Lion" target="_blank"> <img src="images/lion.jpg"
+                            class="img-fluid rounded-start" alt="..."></a>
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Lion</h5>
+                        <p class="card-text">
+
+                            The lion, known as the "king of the jungle," is a symbol of strength and courage. With its
+                            golden mane and powerful roar, the lion embodies majesty and grace. Living in social prides,
+                            these magnificent creatures navigate their natural habitats with agility, showcasing both
+                            prowess and beauty. The lion stands as an iconic symbol of the untamed spirit of nature.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div id="elephant" class="card mb-3" style="max-width: 1080px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <a href="https://en.wikipedia.org/wiki/Elephant" target="_blank"> <img src="images/elephant.jpg"
+                            class="img-fluid rounded-start" alt="..."></a>
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Elephant</h5>
+                        <p class="card-text">
+                            The elephant, admired for its strength and wisdom, is a symbol of gentle intelligence. With
+                            its
+                            iconic features and close-knit family bonds, this majestic creature plays a vital role in
+                            maintaining ecosystems. Conservation efforts are crucial to protect elephants from threats
+                            like
+                            habitat loss and poaching..</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div id="zebra" class="card mb-3" style="max-width: 1080px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <a href="https://en.wikipedia.org/wiki/Zebra" target="_blank"> <img src="images/zebra.jpg"
+                            class="img-fluid rounded-start" alt="..."></a>
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Zebra</h5>
+                        <p class="card-text">The zebra, recognized by its striking black and white stripes, is a
+                            captivating
+                            herbivore of the African savannah. Traveling in herds, these resilient creatures use their
+                            unique patterns for both camouflage and individual identification within the group, adding
+                            charm
+                            to the wild landscapes they inhabit..</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div id="rhino" class="card mb-3" style="max-width: 1080px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <a href="https://en.wikipedia.org/wiki/Rhinoceros" target="_blank"> <img src="images/rhino.jpg"
+                            class="img-fluid rounded-start" alt="..."></a>
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Rhino</h5>
+                        <p class="card-text">The rhinoceros, known for its robust build and distinctive horn, is a
+                            crucial
+                            player in maintaining ecosystem balance. Despite their solitary nature, rhinos form social
+                            bonds, especially between mothers and calves. Threatened by poaching, conservation efforts
+                            are
+                            vital to safeguard these magnificent creatures and preserve the biodiversity of their
+                            habitats.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div id="giraffe" class="card mb-3" style="max-width: 1080px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <a href="https://en.wikipedia.org/wiki/Giraffe" target="_blank"> <img src="images/giraffe.jpg"
+                            class="img-fluid rounded-start" alt="..."></a>
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Giraffe</h5>
+                        <p class="card-text">The giraffe, with its iconic spotted coat and towering neck, is a symbol of
+                            grace in the African savannah. These gentle herbivores form loose social groups and use
+                            their
+                            long necks to reach treetop leaves. Despite their elegance, giraffes face threats like
+                            habitat
+                            loss and poaching, underscoring the need for conservation efforts.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div id="cheetah" class="card mb-3" style="max-width: 1080px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <a href="https://en.wikipedia.org/wiki/Cheetah" target="_blank"> <img src="images/chettah.jpg"
+                            class="img-fluid rounded-start" alt="..."></a>
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Cheetah</h5>
+                        <p class="card-text">The cheetah, famed as the fastest land animal, is a sleek and agile marvel
+                            of
+                            the African plains. Recognizable by its distinctive coat, these solitary hunters face
+                            challenges
+                            like habitat loss and human-wildlife conflict. Conservation efforts are crucial to safeguard
+                            these remarkable and endangered predators..</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
